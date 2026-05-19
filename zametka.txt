@@ -1,0 +1,6 @@
+./configure -release -static -opensource -confirm-license -platform win32-g++  -cmake-generator "Ninja" -prefix D:\Programs\qt_static_build
+
+
+cmake -DCMAKE_PREFIX_PATH=D:\Programs\qt_static_build
+
+cmake -S D:\Programs\qt_build -B D:\Programs\qt_build\build
